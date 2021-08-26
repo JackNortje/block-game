@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: silver;
+    
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 40px;
+}
+#div-container {
+    height: 650px;
+    width: 650px;
+    display: grid;
+    grid-template-columns: repeat(16, auto);
+    margin: auto;
+    margin-top: 70px;
+    border: 5px solid black;
+
+    
+}
+#div-container, div {
+    border: 1px solid black;
+    background-color: black;
+}
+button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 20px auto auto auto;
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    padding: 6px;
+    background-color: black;
+    color: white;
+
+}
+button:hover {
+    background-color: greenyellow;
+    color: black;
+    cursor: pointer;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}

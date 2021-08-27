@@ -1,7 +1,7 @@
 body {
     margin: 0;
     height: 100vh;
-    background-color: silver;
+    background-color: rgb(47, 47, 47);
     
 }
 h1 {
@@ -9,6 +9,7 @@ h1 {
     justify-content: center;
     font-size: 50px;
     margin-top: 40px;
+    color: lightgray;
 }
 #div-container {
     height: 650px;
@@ -17,7 +18,7 @@ h1 {
     grid-template-columns: repeat(16, auto);
     margin: auto;
     margin-top: 70px;
-    border: 5px solid black;
+    border: 5px solid lightgray;
 
     
 }
@@ -35,18 +36,28 @@ button {
     font-size: 30px;
     padding: 6px;
     background-color: black;
-    color: white;
+    color: lightgray;
+    border: 1px solid lightgray;
 
 }
 button:hover {
-    background-color: greenyellow;
+    background-color: lightgray;
     color: black;
     cursor: pointer;
+    transform: scale(1,1);
 }
+
 footer {
     display: flex;
     justify-content: center;
     margin-top: 40px;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 30px;
+    color: lightgray;
+}
+a {
+    text-decoration: none;
+    color: grey;
+    margin-left: 5px;
+    font-size: 30px;
 }
